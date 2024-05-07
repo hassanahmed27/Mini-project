@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;  /* Set a clean font */
+    margin: auto;  /* Remove default browser margins */
+    padding: 20px;  /* Add some padding for content */
+    background-image: url(blue-curve-background_53876-113112.avif);
+    background-size: cover;
+  }
+  
+  form  {
+    width: 300px;  /* Set a width for the form */
+    margin:  auto;  /* Center the form horizontally */
+    border: 5px solid black;  /* Add a light border */
+    padding: 50px;  /* Add some padding within the form */
+    border-radius: 5px;  /* Add rounded corners */
+   margin-top: 100px;
+  }
+  
+  label {
+    display: flex;  /* Make labels appear on separate lines */
+    margin-bottom: 10px;  /* Add some space between labels and inputs */
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;  /* Make inputs full width */
+    padding: 10px;  /* Add padding for better user experience */
+    border: 1px solid black;  /* Add a light border */
+    border-radius: 10px;  /* Add rounded corners to inputs */
+    display: flex;
+    justify-content: center;
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50;  /* Green background for submit button */
+    color: white;  /* White text color */
+    padding: 10px 20px;  /* Add padding for the button */
+    border: none;  /* Remove default button border */
+    border-radius: 10px;  /* Add rounded corners */
+    cursor: pointer;  /* Change cursor to indicate clickability */
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45A049;  /* Change background color on hover */
+  }
